@@ -20,7 +20,7 @@ Always wanted to work with a python web framework and so here I am implementing 
 #### To launch the app:
   You’ll need to first run (To migrate databse) <br>
     ``` $ python manage.py makemigrations  ```<br>
-    ``` $ python manage.py migrate ```<br>
+    ``` $ python manage.py migrate ```<br> <br>
   Then, to start the server <br>
     ``` $ python manage.py runserver ```
     
