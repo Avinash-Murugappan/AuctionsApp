@@ -19,12 +19,12 @@ Always wanted to work with a python web framework and so here I am implementing 
 ## Usage 🚀
 #### To launch the app:
   You’ll need to first run (To migrate databse)
-    $ python manage.py makemigrations
-    $ python manage.py migrate
+    ``` $ python manage.py makemigrations  ```
+    ``` $ python manage.py migrate ```
   Then, to start the server
-    $ python manage.py runserver
+    ``` $ python manage.py runserver ```
     
-Once the Flask app is running, navigate to the `localhost` link provided:
+Once the app is running, navigate to the `localhost` link provided:
 <code> * Running on <b>http://127.0.0.1:8000/</b> (Press CTRL+C to quit)</code>
 
 
