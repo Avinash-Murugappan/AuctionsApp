@@ -18,10 +18,10 @@ Always wanted to work with a python web framework and so here I am implementing 
 
 ## Usage 🚀
 #### To launch the app:
-  You’ll need to first run (To migrate databse)
-    ``` $ python manage.py makemigrations  ```
-    ``` $ python manage.py migrate ```
-  Then, to start the server
+  You’ll need to first run (To migrate databse) <br>
+    ``` $ python manage.py makemigrations  ```<br>
+    ``` $ python manage.py migrate ```<br>
+  Then, to start the server <br>
     ``` $ python manage.py runserver ```
     
 Once the app is running, navigate to the `localhost` link provided:
