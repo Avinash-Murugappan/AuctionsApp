@@ -10,7 +10,7 @@ A python django app (eBay-like) e-commerce auction site that will allow users to
 ![app demo](screenshot.png)
 
 ## Inspiration 🤩
-Always wanted to work with a python web framework and so here I am implementing something basic with flask and python to get started. 
+Always wanted to work and develop my skills with python django framework and so here I am implementing an auction app. 
 ## Installation 🛠️
  Install Django
     ```$ pip install Django==3.1.5```
