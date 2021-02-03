@@ -1,5 +1,5 @@
 import os
-
+import django_heroku
 from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -10,10 +10,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ' '
+SECRET_KEY = os.environ.get('COMMERCE_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -122,3 +122,6 @@ MESSAGE_TAGS = {
     messages.ERROR: "alert alert-danger",
     messages.SUCCESS: "alert alert-success"
 }
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
