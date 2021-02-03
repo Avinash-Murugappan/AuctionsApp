@@ -5,7 +5,7 @@ A python django app (eBay-like) e-commerce auction site that will allow users to
 
 
 ## Demo 😮
-[Watch here](https://youtu.be/LSxT38ukkdM)
+[live site](https://auctions-avi.herokuapp.com/)
 
 ![app demo](screenshot.png)
 
